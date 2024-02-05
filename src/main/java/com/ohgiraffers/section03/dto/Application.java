@@ -15,7 +15,7 @@ public class Application {
         *  주로 계층간 데이터를 주고 받을 목적으로 사용한다.
         * */
 
-        MemberDTO member = new MemberDTO();
+        MemberDTO member = new MemberDTO(); // 생성자라 부르는 객체를 생성한것
         member.setNumber(1);
         member.setName("홍길동");
         member.setAge(20);
