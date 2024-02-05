@@ -94,6 +94,11 @@ public class Application {
             }
         }
 
+        /* 내가 만든 논리형 초기값 체크하는 출력문 */
+        Car c = new Car();
+//        c.checkBoolean();
+        System.out.println(c.isOn());
+
 
     }
 }

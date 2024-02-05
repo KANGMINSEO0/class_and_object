@@ -5,7 +5,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        /* 수업목표. 필드에 직접 접근하는 경우 발생할 수 있는 문제점을 이해할 수 있다. */
+        /* 수업목표. 필드에 직접 접근하는 경우 발생할 수 있는 문제점을 이해할 수 있다. (2) */
 
         Monster monster1 = new Monster();
         monster1.name = "드라큘라";

@@ -49,4 +49,13 @@ public class Car {
             System.out.println("이미 시동이 꺼져 있는 상태입니다. 시동 상태를 확인해주세요.");
         }
     }
+
+//    public void checkBoolean() {
+//        this.isOn = isOn;
+//        System.out.println(isOn);
+//    }
+    public boolean isOn () {
+        return this.isOn;
+    }
+
 }
