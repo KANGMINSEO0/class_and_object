@@ -19,7 +19,7 @@ public class Application {
         *       user.setPwd("ohgiraffers");
         *       user.setName("ohgiraffers");
         *       호출하는 코드만 봐도 어떤 값이 필드를 초기화하는 내용인지 쉽게 알 수 있다.
-        * 단점 : 하나의 인스턴스를 생성할 때 한 번의 호출로 끈나지 않는다.
+        * 단점 : 하나의 인스턴스를 생성할 때 한 번의 호출로 끝나지 않는다.
 *               (상황에 따라 interrupt 등 여러 가지 문제가 발생할 수 있음)
         * */
 

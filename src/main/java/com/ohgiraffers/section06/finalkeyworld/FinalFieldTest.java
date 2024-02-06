@@ -29,12 +29,13 @@ public class FinalFieldTest {
         this.NON_STATIC_NAME = nonStaticName;
     }
 
-    /* 목차 2. static field에 final 사용 */  // 정정 프로그래밍 메모리 영역
+    /* 목차 2. static field에 final 사용 */  // 정적 프로그래밍 메모리 영역
 //    private static final int STATIC_NUM;      // 마찬가지로 0으로 초기화됨
     private static final int STATIC_NUM = 1;    // 선언과 동시에 초기화
 
-        private static final double STATIC_DOUBLE;
-//    public FinalFieldTest(double staticDouble) {
+    private static final double STATIC_DOUBLE;
+
+    //    public FinalFieldTest(double staticDouble) {
 //        FinalFieldTest.STATIC_DOUBLE = staticDouble;
 //    }
     static {
