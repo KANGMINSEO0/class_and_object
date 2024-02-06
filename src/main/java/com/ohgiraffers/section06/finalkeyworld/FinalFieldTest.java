@@ -39,7 +39,7 @@ public class FinalFieldTest {
 //    }
     static {
         STATIC_DOUBLE = 0.5;
-    } // static 초기화 영역
+    } // static 초기화 블럭
 }
 
 
